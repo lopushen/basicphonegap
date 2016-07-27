@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+          <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.4.5.css" />
+    
+    <title>Hello World</title>
+</head>
+        
+         
+    <body>
+        <div class="app">
+            <div data-role="page" id="home">
+                <header data-role="header">
+                    <h1>Header of the app</h1>
+                </header>
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#home" class="ui-btn-active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div data-role="content">
+                    <img src="img/banner.png" class="banner">
+                    <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt justo elit, eget convallis enim porta et. Nam non ante tellus. Donec eget tristique quam, sit amet volutpat justo. Vestibulum sed quam erat. Pellentesque sed eros bibendum, hendrerit augue non, fringilla elit. Nullam condimentum eros sed tellus tincidunt aliquet quis vitae ligula. Fusce ac felis a ligula vulputate accumsan. Praesent sagittis vulputate quam vel convallis. Cras dapibus leo eu ante commodo consectetur.
+Praesent sed sem sit amet nisi faucibus finibus at sit amet risus. Nam id diam arcu. Pellentesque commodo quam id nibh interdum, non tincidunt elit imperdiet. Etiam ut ante molestie, sagittis sapien ac, tempor felis. Aliquam hendrerit, sapien et convallis interdum, orci nisl vestibulum purus, eu consectetur nisi ex quis nulla. Praesent vitae diam ornare dolor sagittis sollicitudin. Aliquam facilisis nisl sed ultricies pellentesque. Aenean vestibulum nulla ac volutpat vulputate. Nulla elementum posuere ipsum ullamcorper efficitur.
+
+Sed rhoncus, quam vel elementum dictum, leo massa interdum purus, eget mattis erat tellus at neque. Praesent dignissim posuere diam, vitae tristique nibh convallis sit amet. Sed laoreet et ante eget sollicitudin. Mauris vel tortor mollis, gravida quam a, ornare elit. Aliquam nisi tortor, blandit semper condimentum non, condimentum vitae ipsum. Fusce suscipit suscipit velit tristique vehicula. Cras in metus aliquam, varius nulla ac, semper nisi. Suspendisse risus tortor, egestas ut felis a, tempor cursus diam. Nulla facilisi. Proin commodo orci sapien, nec feugiat massa pretium euismod.
+
+Integer euismod ac nisi eu convallis. Nunc mauris neque, sodales vitae augue bibendum, congue dapibus ipsum. Vivamus finibus lacus ac gravida tempus. Aenean euismod tellus a dolor volutpat, a fermentum mauris fermentum. Vestibulum pretium eros turpis, vel ullamcorper lacus maximus quis. Nullam eget nisi euismod, suscipit elit at, mattis tellus. Aenean massa lorem, molestie vel hendrerit in, sollicitudin a eros. Aliquam posuere blandit tellus, ac viverra purus rhoncus nec. Aenean purus diam, mattis in pellentesque at, laoreet sit amet magna.</p>
+                    <a href="#contact" class="ui-shadow ui-btn ui-corner-all">Contact us today!</a>
+                </div>
+               <footer data-role="footer">
+                   <h3>This is Footer - 2016</h3>
+               </footer>
+            </div>
+        
+        
+            <div data-role="page" id="about">
+                <header data-role="header">
+                    <h1>Header of the app</h1>
+                </header>
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about" class="ui-btn-active">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div data-role="content">
+                    <h3>About us</h3>
+                    <p>Nulla facilisi. Morbi bibendum, arcu nec rhoncus sodales, erat justo ultricies purus, at porttitor ligula magna non felis. Curabitur quis molestie ex. Duis at turpis nec enim dictum feugiat. Duis placerat ut ligula sit amet egestas. Vivamus quam velit, volutpat ut tellus non, ornare tincidunt lorem. Integer varius, mauris id semper ultricies, augue leo pretium enim, eget pellentesque purus justo sit amet urna.
+                    </p>
+                </div>
+               <footer data-role="footer">
+                   <h3>This is Footer - 2016</h3>
+               </footer>
+            </div>
+
+            <div data-role="page" id="contact">
+                <header data-role="header">
+                    <h1>Header of the app</h1>
+                </header>
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact" class="ui-btn-active">Contact</a></li>
+                    </ul>
+                </nav>
+                <div data-role="content">
+                 <h3>Contact us</h3>
+                    <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.6859282756354!2d30.44824331573124!3d50.446950479474815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc26d8ff0f45%3A0x925f69f19ba9efce!2z0LLRg9C70LjRhtGPINCS0LjQsdC-0YDQt9GM0LrQsCwgMSwg0JrQuNGX0LI!5e0!3m2!1sru!2sua!4v1469635791507" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                </div>
+                <h3>Location</h3>
+                 <ul>
+                        <li><strong>1 Vyborzka str</strong></li>
+                        <li><strong>Kyiv, Ukraine/strong></li>
+                        <li>Email: <strong>lopushen@gmail.com</li>
+                        <li>Phone: <strong>+38 (063) 284-86-62</li>
+                        
+                    </ul>
+               <footer data-role="footer">
+                   <h3>This is Footer - 2016</h3>
+               </footer>
+            </div>
+
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+        <script type="text/javascript" src="js/index.js"></script> 
+    </body> 
+</html>
